@@ -1,17 +1,15 @@
 import { Outlet } from "react-router";
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
-import './App.css'
 import 'modern-normalize/modern-normalize.css';
+import Sidebar from './components/Layout/Sidebar';
+import './App.css'
 
 const App = () => (
-  <div className="min-h-screen flex flex-col">
-    <Navbar />
-    <main className="flex-1">
+  <div className="min-h-screen flex bg-main">
+    <Sidebar />
+
+    <main className="flex-1 p-10">
       <Outlet />
     </main>
-    <span>test</span>
-    <Footer />
   </div>
 )
 
