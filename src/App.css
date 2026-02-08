@@ -1,0 +1,24 @@
+
+.sidebar__home--color {
+  background: oklch(0.96 0.005 65);
+  /* oklch(0.96 0.005 65–70) */
+
+}
+
+.body__home--color {
+  background: oklch(0.99 0 0);
+}
+
+
+.bg-sidebar {
+  background: oklch(0.96 0.005 65);
+}
+
+.bg-main {
+  background: oklch(0.99 0 0);
+}
+
+/* Bordes suaves */
+.border-soft {
+  border-color: oklch(0.88 0.01 68);
+}
