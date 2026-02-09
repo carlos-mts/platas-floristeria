@@ -1,8 +1,8 @@
 // import { useFloreriaStore } from '../../store/floreriaStore.js';
 import { useNavigate } from "react-router";
-import DashboardCard from "../../components/HomePage/DashboardCard.jsx";
-import { ROUTES } from "../../constants.js";
-
+import DashboardCard from "../Components/DashboardCard.jsx";
+import { ROUTES } from "../../../globals.js";
+import PageHeader from "../../Layout/PageHeader.jsx";
 
 const HomePage = () => {
 	// const { products } = useFloreriaStore();
@@ -11,6 +11,7 @@ const HomePage = () => {
 	return (
 		<>
 			{/* Cards */}
+			<PageHeader title="Dashboard" description="Bienvenido al panel de control de tu floristería" />
 			<section className="grid grid-cols-3 gap-8">
 				<DashboardCard
 					title="Gestión de inventario"

@@ -3,8 +3,6 @@ const ProductView = ({ product, onEdit }) => {
 
   return (
     <div className="bg-white rounded-xl shadow-md p-4 w-full flex flex-col md:flex-row border border-gray-200">
-      <div className="bg-white rounded-xl p-4 w-full flex flex-col md:flex-row gap-3 border border-gray-200">
-
         <div className="shrink-0">
           <img
             src={product.img}
@@ -43,8 +41,6 @@ const ProductView = ({ product, onEdit }) => {
             </button>
           </div>
         </div>
-      </div>
-
     </div>
   );
 }

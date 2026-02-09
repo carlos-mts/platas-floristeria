@@ -1,4 +1,4 @@
-import { useFloreriaStore } from "../../store/floreriaStore";
+import { useFloreriaStore } from "../../../store/floreriaStore.js";
 import ProductItem from "./ProductItem";
 
 const ProductDetails = () => {
@@ -6,7 +6,7 @@ const ProductDetails = () => {
 
   const updateProduct = (updatedProduct) => {
     console.log("Updating product:", updatedProduct);
-    useFloreriaStore.getState().updateProduct(updatedProduct);
+    // useFloreriaStore.getState().updateProduct(updatedProduct);
   };
 
   return (
