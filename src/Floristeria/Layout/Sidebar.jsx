@@ -2,7 +2,7 @@
 
 import { NavLink } from "react-router";
 import SidebarItem from "./SidebarItem";
-import { ROUTES } from "../../constants";
+import { ROUTES } from "../../globals";
 
 const Sidebar = () => {
   return (
